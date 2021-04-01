@@ -1,0 +1,47 @@
+#wrapper {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+#flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header {
+    background-image: linear-gradient(to right, #247BA0 ,#FFE066, #F25F5C, #50514F);
+}
+
+#common {
+    color:#247BA0;
+    font-size: 20px;
+}
+
+#common:hover {
+    color: #FFFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/*contact rows*/
+#idrow50514F:hover {
+    background-color: #50514F;
+    transition: 0.5s;
+}
+
+#idrowF25F5C:hover {
+    background-color: #F25F5C;
+    transition: 0.5s;
+}
+
+#idrowFFE066:hover {
+    background-color: #FFE066;
+    transition: 0.5s;
+}
+
+#idrow70C1B3:hover {
+    background-color: #70C1B3;
+    transition: 0.5s;
+}
